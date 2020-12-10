@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: black;
+  /* background: url("/images/HD-Galaxy-Wallpapers-Free-Download-111.jpg")
+    no-repeat center center fixed; */
+  background-size: cover;
+  overflow: hidden;
+  flex-direction: column;
+}
+
+.astroworld-universe {
+  background-image: url(/images/HD-Galaxy-Wallpapers-Free-Download-111.jpg);
+  position: relative;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100%;
+  width: 100%;
+}
+
+.astroworld-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+  background-color: transparent;
+  flex-direction: column;
+}
+
+.astroworld-container-two {
+  position: absolute;
+  left: 2rem;
+  top: 2rem;
+  background-color: transparent;
+}
+
+.astroworld-container-three {
+  position: absolute;
+  left: 90rem;
+  top: 5rem;
+  background-color: transparent;
+}
+
+.astro-button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+  width: 15rem;
+  height: 2.5rem;
+  margin-top: 4rem;
+  color: yellow;
+  border-radius: 3rem;
+  border: double yellow;
+  outline: none;
+  font-size: larger;
+  text-shadow: 1px 1px 2px black;
+  background-image: url("/images/illusion.jpg");
+}
+
+.astro-button:hover {
+  box-shadow: 5px 1px 35px 13px white;
+  transition-timing-function: ease-in;
+  transition: 0.3s;
+}
+
+.astro-title {
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  margin-top: 6rem;
+  font-family: "Major Mono Display", monospace;
+  color: yellow;
+  text-shadow: 3px 3px 10px white;
+  font-size: 2.5rem;
+  animation: reveal 3000ms ease-in-out forwards 200ms,
+    glow 2500ms linear infinite 2000ms;
+}
+
+#audio {
+  display: flex;
+  justify-content: center;
+  position: absolute;
+  margin-top: 30rem;
+  width: 20rem;
+  height: 10rem;
+}
+
+@keyframes reveal {
+  80% {
+    letter-spacing: 8px;
+  }
+  100% {
+    background-size: 300% 300%;
+  }
+}
+@keyframes glow {
+  40% {
+    text-shadow: 1px 1px 5px red;
+  }
+}
+
+@media screen and (max-width: 375px) {
+  body {
+    width: 375px;
+    height: 875px;
+    background-size: cover;
+    overflow: hidden;
+  }
+  .astroworld-container-three {
+    position: absolute;
+    left: 10rem;
+    top: 5rem;
+    background-color: transparent;
+  }
+}

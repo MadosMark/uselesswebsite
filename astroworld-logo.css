@@ -1,0 +1,20 @@
+#astroworld-logo {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 10rem;
+  box-shadow: -1px -1px 30px 1px rgb(251, 255, 0);
+  animation-direction: normal;
+  animation: spin 0s linear infinite;
+  transform: rotate(360deg);
+}
+
+#astroworld-logo.spin {
+  height: 15rem;
+  width: 15rem;
+  border-radius: 10rem;
+  box-shadow: 1px 1px 35px 2px rgb(255, 0, 0);
+  transition: box-shadow 0.3s ease-in;
+  animation-direction: normal;
+  animation: spin 3s linear infinite;
+  transform: rotate(360deg);
+}
