@@ -10,3 +10,16 @@
 
  
   })(document);
+
+
+(function(document){
+    const button = document.querySelector(".astro-button");
+    let astroworldBackground = document.getElementById('astro-universe-image');
+    
+    button.addEventListener('click', function() {
+        astroworldBackground.className = 'astro-universe-image perspective';
+        
+    });
+
+ 
+  })(document);

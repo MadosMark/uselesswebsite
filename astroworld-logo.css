@@ -4,9 +4,8 @@
   border-radius: 10rem;
   box-shadow: -1px -1px 30px 1px rgb(251, 255, 0);
   animation-direction: normal;
-  transition: box-shadow 0.3s ease-in;
-  animation: spin 0s;
-  animation-timing-function: ease-in;
+  transition: box-shadow 0.3s;
+  animation: spin 0s like infinite;
 }
 
 #astroworld-logo.spin {

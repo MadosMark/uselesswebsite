@@ -1,0 +1,17 @@
+.astro-universe-image {
+  position: absolute;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  animation: perspective 85s cubic-bezier(0.35, 0.06, 0.92, 0.03) infinite;
+}
+@keyframes perspective {
+  0% {
+    perspective: 100px;
+    transform: scale(1);
+  }
+  100% {
+    perspective: 100000000000px;
+    transform: scale(10);
+  }
+}
