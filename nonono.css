@@ -1,6 +1,5 @@
 body {
   margin: auto;
-  overflow: hidden;
 }
 
 .videoContainer {
@@ -23,7 +22,6 @@ body {
 @media screen and (min-width: 380px) {
   body {
     margin: auto;
-    overflow: hidden;
   }
 
   .videoContainer {
