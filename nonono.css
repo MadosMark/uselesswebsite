@@ -1,5 +1,4 @@
 body {
-  background: pink;
   margin: auto;
   overflow: hidden;
 }
@@ -23,7 +22,6 @@ body {
 
 @media screen and (min-width: 380px) {
   body {
-    background: blue;
     margin: auto;
     overflow: hidden;
   }
