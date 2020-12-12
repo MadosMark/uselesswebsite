@@ -1,0 +1,47 @@
+body {
+  background: pink;
+  margin: auto;
+  overflow: hidden;
+}
+
+.videoContainer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0;
+}
+
+.video {
+  object-fit: cover;
+  width: 100%;
+  height: 170px;
+}
+
+.video.first {
+  grid-column: 1 / 3;
+  grid-row: 1;
+}
+
+@media screen and (min-width: 380px) {
+  body {
+    background: blue;
+    margin: auto;
+    overflow: hidden;
+  }
+
+  .videoContainer {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 0;
+  }
+
+  .video {
+    object-fit: cover;
+    width: 100%;
+    height: 300px;
+  }
+
+  .video.first {
+    grid-column: 1;
+    grid-row: 1;
+  }
+}
