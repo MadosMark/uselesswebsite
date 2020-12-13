@@ -1,5 +1,5 @@
 const button = document.querySelector('button');
 
 button.addEventListener('click', event => {
-    location.href = "nonono.html";
+    location.href = "secondPage.html";
 });
