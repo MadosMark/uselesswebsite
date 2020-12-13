@@ -1,7 +1,9 @@
-# Useless Website
-
-Made a big mistake?
+# Made a big mistake?
 
 Here is your hyper!
+
+Click the link and get you bad mood hype now : https://big-mistake-hyper.netlify.app/
+
+
 
 ![Alt Text](https://media.giphy.com/media/BY8ORoRpnJDXeBNwxg/source.gif)
