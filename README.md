@@ -2,7 +2,7 @@
 
 Here is your hyper!
 
-Click the link and get you bad mood hype now : https://big-mistake-hyper.netlify.app/
+Click the link and get your bad mood hype now : https://big-mistake-hyper.netlify.app/
 
 
 
