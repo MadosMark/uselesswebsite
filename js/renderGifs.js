@@ -6,6 +6,7 @@ const gifs = [
     {id: '5', url: 'https://media.giphy.com/media/ToMjGpx9F5ktZw8qPUQ/source.gif'},
     {id: '6', url: 'https://media.giphy.com/media/ToMjGpx9F5ktZw8qPUQ/source.gif'},
     {id: '7', url: 'https://media.giphy.com/media/ToMjGpx9F5ktZw8qPUQ/source.gif'},
+    {id: '8', url: 'https://media.giphy.com/media/ToMjGpx9F5ktZw8qPUQ/source.gif'},
   ]
 
 const gifId = document.getElementById('gifId')
