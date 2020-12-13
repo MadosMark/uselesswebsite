@@ -1,5 +1,4 @@
 const button = document.querySelector('button');
-const buttonId = document.getElementById('buttonId')
 
 button.addEventListener('click', event => {
     location.href = "secondPage.html";
