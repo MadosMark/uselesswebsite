@@ -38,11 +38,11 @@ body {
   border-radius: 35rem;
 }
 
-button:hover {
+/* button:hover {
   box-shadow: 0 0 0 10000px var(--third-bg-color);
   transition: ease-in 0.3s;
   color: var(--third-bg-color);
-}
+} */
 
 .title {
   font-family: var(--main-bg-font);

@@ -5,7 +5,6 @@ const audio4 = document.getElementById("audio4")
 const audio5 = document.getElementById("audio5")
 
 window.addEventListener('load', (event) => {  
-  console.log(event)
   setTimeout(() => {
     audio1.play()
   }, 500);

@@ -14,12 +14,10 @@ body {
 .gifContainer {
   display: flex;
   flex-direction: column;
-  background-color: var(--main-bg-color);
 }
 
 .gif {
-  width: 25vw;
-  height: 40vh;
+  width: 100vw;
   object-fit: cover;
 }
 
@@ -39,7 +37,7 @@ body {
 
   .gif {
     width: 25vw;
-    height: 40vh;
+    height: 25vh;
     object-fit: cover;
   }
 }
