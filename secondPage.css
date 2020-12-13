@@ -1,5 +1,5 @@
 :root {
-  --main-bg-color: teal;
+  --main-bg-color: black;
   --second-bg-color: white;
   --main-bg-font: "Shadows Into Light";
 }
@@ -7,42 +7,39 @@
 body {
   padding: 0;
   margin: 0;
-  /* height: 100vh; */
-  /* width: 100%; */
-  /* overflow: hidden; */
+  width: 100%;
   background-color: var(--main-bg-color);
 }
 
 .gifContainer {
-  /* display: grid;
-  grid-template-columns: 1fr;
-  margin-left: 11px;
-  padding: 0; */
+  display: flex;
+  flex-direction: column;
   background-color: var(--main-bg-color);
 }
 
 .gif {
-  height: 17rem;
-  width: 22rem;
+  width: 25vw;
+  height: 40vh;
+  object-fit: cover;
 }
 
 @media screen and (min-width: 380px) {
   body {
     margin: 0;
     padding: 0;
-    /* height: 100vh;
-    width: 100%; */
+    width: 100%;
   }
 
   .gifContainer {
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    background: red;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: var(--main-bg-color);
   }
 
   .gif {
-    height: 55rem;
-    width: 40rem;
-    object-fit: contain;
+    width: 25vw;
+    height: 40vh;
+    object-fit: cover;
   }
 }
