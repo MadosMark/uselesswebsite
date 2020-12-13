@@ -13,4 +13,4 @@ const gifId = document.getElementById('gifId')
 
 gifId.innerHTML = gifs.map((gif, index) => 
     `<img class="gif" src="${gif.url}" alt="michaelscott">`
-).join()
+).join('')
