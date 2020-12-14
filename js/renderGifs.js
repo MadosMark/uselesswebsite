@@ -20,5 +20,5 @@ const gifs = [
 const gifClass = document.querySelector('.gifContainer')
 
 gifClass.innerHTML = gifs.map((gif, index) => 
-    `<img class="gif" src="${gif.url}" alt="michaelscott">`
+    `<img class="gif" src="${gif.url}" alt="Michael Scott from The Office is screaming no repeatedly">`
 ).join('')
