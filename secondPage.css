@@ -11,30 +11,38 @@ body {
   background-color: var(--main-bg-color);
 }
 
-.gifContainer {
+.gifBigContainer {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
 }
-
+.gifContainer {
+  overflow: hidden;
+  height: 100vh;
+  display: grid;
+  grid-template-columns: 110px 100px 100px 0px;
+  grid-template-rows: 110px 110px 110px 200px;
+  column-gap: 90px;
+  row-gap: 85px;
+}
 .gif {
-  width: 100vw;
-  object-fit: cover;
+  width: 25vh;
+  height: 25vh;
+  object-fit: contain;
 }
 
 @media screen and (min-width: 380px) {
-  body {
-    margin: 0;
-    padding: 0;
-    width: 100%;
+  .gifBigContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
   }
 
   .gifContainer {
     overflow: hidden;
     height: 100vh;
-    /* display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    background-color: var(--main-bg-color); */
     display: grid;
     grid-template-columns: 260px 260px 260px 0px;
     grid-template-rows: 107px 107px 107px 200px;
