@@ -1,4 +1,4 @@
-@media screen and (max-width: 900px) {
+@media screen and (min-width: 500px) and (max-width: 1200px) {
   .gif {
     width: 35vw;
     height: 35vh;
