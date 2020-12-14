@@ -1,0 +1,17 @@
+@media screen and (min-width: 1500px) {
+  .gifContainer {
+    overflow: hidden;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: 400px 400px 400px 0px;
+    grid-template-rows: 135px 135px 135px 200px;
+    column-gap: 90px;
+    row-gap: 85px;
+  }
+
+  .gif {
+    width: 25vw;
+    height: 25vh;
+    object-fit: contain;
+  }
+}

@@ -29,15 +29,22 @@ body {
   }
 
   .gifContainer {
-    display: flex;
+    overflow: hidden;
+    height: 100vh;
+    /* display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: var(--main-bg-color);
+    background-color: var(--main-bg-color); */
+    display: grid;
+    grid-template-columns: 260px 260px 260px 0px;
+    grid-template-rows: 107px 107px 107px 200px;
+    column-gap: 90px;
+    row-gap: 85px;
   }
 
   .gif {
     width: 25vw;
     height: 25vh;
-    object-fit: cover;
+    object-fit: contain;
   }
 }
