@@ -3,6 +3,10 @@
   --second-bg-color: white;
   --third-bg-color: red;
   --main-bg-font: "Shadows Into Light";
+  --font-size: 10px;
+}
+* {
+  box-sizing: border-box;
 }
 
 @font-face {
@@ -28,7 +32,7 @@ body {
   justify-content: center;
   align-items: center;
   font-family: var(--main-bg-font);
-  font-size: 25px;
+  font-size: 1.5rem;
   width: 8rem;
   height: 8rem;
   border: solid thin;
@@ -49,7 +53,7 @@ body {
 
 .titleTwo {
   font-family: var(--main-bg-font);
-  font-size: 20px;
+  font-size: 2rem;
   font-weight: bold;
   position: absolute;
   margin-top: 20rem;

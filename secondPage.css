@@ -3,7 +3,9 @@
   --second-bg-color: white;
   --main-bg-font: "Shadows Into Light";
 }
-
+* {
+  box-sizing: border-box;
+}
 body {
   padding: 0;
   margin: 0;
@@ -21,14 +23,12 @@ body {
   overflow: hidden;
   height: 100vh;
   display: grid;
-  grid-template-columns: 110px 100px 100px 0px;
-  grid-template-rows: 110px 110px 110px 200px;
-  column-gap: 90px;
-  row-gap: 85px;
+  grid-gap: 0rem;
 }
+
 .gif {
-  width: 25vh;
-  height: 25vh;
+  width: 37vh;
+  height: 33vh;
   object-fit: contain;
 }
 
@@ -44,10 +44,7 @@ body {
     overflow: hidden;
     height: 100vh;
     display: grid;
-    grid-template-columns: 260px 260px 260px 0px;
-    grid-template-rows: 107px 107px 107px 200px;
-    column-gap: 90px;
-    row-gap: 85px;
+    grid-template-columns: repeat(2, 1fr);
   }
 
   .gif {

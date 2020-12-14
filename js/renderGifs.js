@@ -17,8 +17,8 @@ const gifs = [
     {id: '16', url: 'https://media.giphy.com/media/ToMjGpx9F5ktZw8qPUQ/source.gif'},
   ]
 
-const gifId = document.getElementById('gifId')
+const gifClass = document.querySelector('.gifContainer')
 
-gifId.innerHTML = gifs.map((gif, index) => 
+gifClass.innerHTML = gifs.map((gif, index) => 
     `<img class="gif" src="${gif.url}" alt="michaelscott">`
 ).join('')
