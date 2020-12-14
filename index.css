@@ -52,12 +52,15 @@ body {
 }
 
 .titleTwo {
+  display: flex;
+  justify-content: center;
   font-family: var(--main-bg-font);
-  font-size: 2rem;
+  font-size: 1.5rem;
   font-weight: bold;
   position: absolute;
-  margin-top: 20rem;
+  margin-top: 23rem;
   color: var(--second-bg-color);
+  text-align: center;
 }
 
 @media screen and (min-width: 380px) {
