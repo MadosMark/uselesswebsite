@@ -10,5 +10,5 @@ Click the link and get your bad mood hype now : https://big-mistake-hyper.netlif
 
 
 # Tested by:
-· Ida Form <br>
+· Ida From <br>
 · Lucas Jirkhem Nordeborg
